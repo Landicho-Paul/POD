@@ -15,7 +15,7 @@ namespace inventory
 
     public partial class Form1 : Form
     {
-        public string conn = "datasource=localhost;username=root;password=;database=db_hccpod1";
+        public string conn = "datasource=localhost;username=root;password=;database=db_hccpod";
 
         public void login(string username, string pass)
         {
@@ -65,6 +65,16 @@ namespace inventory
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             login(uname.Text, password.Text);
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void password_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

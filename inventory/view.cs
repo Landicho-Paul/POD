@@ -25,7 +25,7 @@ namespace inventory
             getdata();
         }
 
-        public string connString = "datasource=localhost;username=root;password=;database=db_hccpod1";
+        public string connString = "datasource=localhost;username=root;password=;database=db_hccpod";
 
         public void showdata(string course, string identity, string description, string address, string date, string time, string phone, string location,string name,string status)
         {
@@ -224,6 +224,11 @@ namespace inventory
             Form HOME = new incident();
             HOME.Show();
             this.Hide();
+        }
+
+        private void view_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

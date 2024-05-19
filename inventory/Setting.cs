@@ -23,7 +23,7 @@ namespace inventory
             txtuname.Text = Class1.uname;
             txtOldPassword.PasswordChar = '•';
         }
-        public string connString = "datasource=localhost;username=root;password=;database=db_hccpod1";
+        public string connString = "datasource=localhost;username=root;password=;database=db_hccpod";
         private void guna2HtmlLabel18_Click(object sender, EventArgs e)
         {
 
@@ -172,6 +172,11 @@ namespace inventory
         private void txtConfirmPassword_TextChanged(object sender, EventArgs e)
         {
             ChangePass();
+        }
+
+        private void Setting_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
