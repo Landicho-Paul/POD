@@ -21,7 +21,7 @@ namespace inventory
 
         }
 
-        public string constring = "datasource=localhost;username=root;password=;database=db_hccpod1";
+        public string constring = "datasource=localhost;username=root;password=;database=db_hccpod";
         //public string constring = "datasource=localhost;username=id22175641_grimlocker08;password=Grimlocker_08;database=id22175641_podserverdatabase";
         //public string constring = "server=localhost;database= id22175641_podserverdatabase; uid = id22175641_grimlocker08; pwd=Grimlocker_08;";
         private void incident_Load(object sender, EventArgs e)

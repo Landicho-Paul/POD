@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ACCOUNT));
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel24 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -164,6 +164,7 @@
             this.TBPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TBPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TBPass.Location = new System.Drawing.Point(44, 723);
+            this.TBPass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TBPass.Name = "TBPass";
             this.TBPass.PasswordChar = '\0';
             this.TBPass.PlaceholderText = "";
@@ -185,6 +186,7 @@
             this.TBUser.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TBUser.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TBUser.Location = new System.Drawing.Point(44, 642);
+            this.TBUser.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TBUser.Name = "TBUser";
             this.TBUser.PasswordChar = '\0';
             this.TBUser.PlaceholderText = "";
@@ -197,31 +199,32 @@
             // 
             this.toolsdt.AllowUserToAddRows = false;
             this.toolsdt.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            this.toolsdt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.toolsdt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.toolsdt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.toolsdt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.toolsdt.ColumnHeadersHeight = 4;
             this.toolsdt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.toolsdt.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.toolsdt.DefaultCellStyle = dataGridViewCellStyle6;
             this.toolsdt.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.toolsdt.Location = new System.Drawing.Point(480, 111);
             this.toolsdt.Name = "toolsdt";
             this.toolsdt.ReadOnly = true;
             this.toolsdt.RowHeadersVisible = false;
+            this.toolsdt.RowHeadersWidth = 51;
             this.toolsdt.Size = new System.Drawing.Size(813, 763);
             this.toolsdt.TabIndex = 13;
             this.toolsdt.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -323,6 +326,7 @@
             this.TBEmail.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TBEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TBEmail.Location = new System.Drawing.Point(145, 502);
+            this.TBEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TBEmail.Name = "TBEmail";
             this.TBEmail.PasswordChar = '\0';
             this.TBEmail.PlaceholderText = "";
@@ -344,6 +348,7 @@
             this.TBLastName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TBLastName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TBLastName.Location = new System.Drawing.Point(145, 419);
+            this.TBLastName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TBLastName.Name = "TBLastName";
             this.TBLastName.PasswordChar = '\0';
             this.TBLastName.PlaceholderText = "";
@@ -365,6 +370,7 @@
             this.TBMiddleName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TBMiddleName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TBMiddleName.Location = new System.Drawing.Point(145, 339);
+            this.TBMiddleName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TBMiddleName.Name = "TBMiddleName";
             this.TBMiddleName.PasswordChar = '\0';
             this.TBMiddleName.PlaceholderText = "";
@@ -386,6 +392,7 @@
             this.TBFirstName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TBFirstName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TBFirstName.Location = new System.Drawing.Point(145, 259);
+            this.TBFirstName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TBFirstName.Name = "TBFirstName";
             this.TBFirstName.PasswordChar = '\0';
             this.TBFirstName.PlaceholderText = "";
@@ -466,8 +473,8 @@
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.guna2Panel1.BorderColor = System.Drawing.Color.Black;
-            this.guna2Panel1.BorderRadius = 3;
+            this.guna2Panel1.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Panel1.BorderRadius = 5;
             this.guna2Panel1.BorderThickness = 1;
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel26);
             this.guna2Panel1.Controls.Add(this.txtuname);
@@ -571,10 +578,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1616, 939);
+            this.ClientSize = new System.Drawing.Size(1167, 718);
             this.Controls.Add(this.guna2ShadowPanel2);
             this.Controls.Add(this.guna2Panel2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "ACCOUNT";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

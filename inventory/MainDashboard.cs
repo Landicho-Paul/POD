@@ -15,7 +15,7 @@ namespace inventory
 {
     public partial class MainDashboard : Form
     {
-        public string conn = "datasource=localhost;username=root;password=;database=db_hccpod1";
+        public string conn = "datasource=localhost;username=root;password=;database=db_hccpod";
         public MainDashboard()
         {
             InitializeComponent();
@@ -153,6 +153,11 @@ namespace inventory
             Form HOME = new Setting();
             HOME.Show();
             this.Hide();
+        }
+
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
